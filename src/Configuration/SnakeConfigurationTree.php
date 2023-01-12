@@ -15,8 +15,8 @@ class SnakeConfigurationTree implements ConfigurationInterface
      */
     public function getConfigTreeBuilder()
     {
-        $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('anonymizer');
+        $treeBuilder = new TreeBuilder('snakedumper');
+        $rootNode = $treeBuilder->getRootNode();
 
         $rootChildrenNode = $rootNode->children();
 
