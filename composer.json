@@ -16,7 +16,7 @@
         "symfony/console": ">=4.0",
         "doctrine/dbal": "^2.10",
         "digilist/dependency-graph": "0.2",
-        "fzaninotto/faker": "^1.9",
+        "fzaninotto/faker": "dev-master",
         "monolog/monolog": "^1.14"
     },
     "require-dev": {
